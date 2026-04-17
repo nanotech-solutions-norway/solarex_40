@@ -1,1 +1,0 @@
-document.addEventListener('DOMContentLoaded', () => { const links = document.querySelectorAll('[data-year]'); links.forEach(el => el.textContent = new Date().getFullYear()); });
